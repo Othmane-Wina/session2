@@ -1,0 +1,79 @@
+*{
+    font-family: 'Figtree';
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244,208,78);
+    height: 100vh;
+
+}
+
+.container{
+    height: 530px;
+    width: 380px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black; 
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 15px;/*utilisee avec flexbox uniquement*/
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.p1{
+    background-color: rgb(244,208,78);
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.name-title{
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+.name-title:checked{
+    text-decoration: none;
+}
+
+.name-title:hover{
+    color: rgb(244,208,78);
+    cursor: pointer;
+}
+
+
+.main-para{
+    font-size: 20px;
+    color: gray;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.author img{
+    border-radius: 20px;
+}
+
+.author p{
+    font-weight: bolder;
+}
